@@ -16,7 +16,7 @@ struct ADView: View {
         ZStack {
             Image("ad")
                 .resizable()
-                .scaledToFill()
+//                .scaledToFill()
                 .edgesIgnoringSafeArea(.all)
             
             GeometryReader { geo in

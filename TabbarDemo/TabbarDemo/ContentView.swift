@@ -10,24 +10,48 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var currentIndex: Int = 0
+    @State private var isPopover = false
     var body: some View {
-        TabView(selection: $currentIndex) {
-            HomeView()
-                .tabItem {
-                    homeImage
-                    Text("主页")
+        ZStack {
+            TabView(selection: $currentIndex) {
+                HomeView()
+                    .tabItem {
+                        homeImage
+                        Text("主页")
+                }
+                .tag(0)
+                
+                AddView()
+                    .tabItem {
+                        Text("")
+                        .disabled(true)
+                }.tag(1)
+                
+                MineView()
+                    .tabItem {
+                        mineImage
+                        Text("我的")
+                }
+                .tag(2)
             }
-            .tag(0)
+            .accentColor(.orange)
             
-            MineView()
-                .tabItem {
-                    mineImage
-                    Text("我的")
+            GeometryReader { geo in
+                Image("add_fill")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 50, height: 50)
+                    .position(x: (geo.size.width) * 0.5, y: geo.size.height - 35)
+                    .onTapGesture {
+//                        self.currentIndex = 1
+                        self.isPopover = true
+                }
             }
-            .tag(1)
         }
-        .foregroundColor(.gray)
-        .accentColor(.orange)
+    
+        .sheet(isPresented: $isPopover) {
+            AddView()
+        }
     }
     
     private var mineImage: some View {

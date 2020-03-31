@@ -14,7 +14,18 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ad" translatesAutoresizingMaskIntoConstraints="NO" id="QHd-t5-NHb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.053154483439999997" green="0.40972578529999998" blue="0.52302837369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QHd-t5-NHb" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="MsM-xi-hMB"/>
+                            <constraint firstItem="QHd-t5-NHb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="OeE-DZ-b1j"/>
+                            <constraint firstAttribute="bottom" secondItem="QHd-t5-NHb" secondAttribute="bottom" id="Qg4-0J-bgw"/>
+                            <constraint firstAttribute="trailing" secondItem="QHd-t5-NHb" secondAttribute="trailing" id="qIA-AM-Sb0"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -23,4 +34,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ad" width="720" height="1558"/>
+    </resources>
 </document>

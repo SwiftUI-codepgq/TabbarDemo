@@ -17,8 +17,8 @@
 		CD3653812431D4830078F694 /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3653802431D4830078F694 /* MineView.swift */; };
 		CD3653832431D4900078F694 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3653822431D4900078F694 /* HomeView.swift */; };
 		CD3653852431E4C40078F694 /* ADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3653842431E4C40078F694 /* ADView.swift */; };
-		CD3653892431E56C0078F694 /* ad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD3653882431E56C0078F694 /* ad.jpeg */; };
 		CD36538B2431EA520078F694 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36538A2431EA520078F694 /* UIApplication.swift */; };
+		CD36538D2432CF1C0078F694 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36538C2432CF1C0078F694 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 		CD3653802431D4830078F694 /* MineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineView.swift; sourceTree = "<group>"; };
 		CD3653822431D4900078F694 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CD3653842431E4C40078F694 /* ADView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADView.swift; sourceTree = "<group>"; };
-		CD3653882431E56C0078F694 /* ad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad.jpeg; sourceTree = "<group>"; };
 		CD36538A2431EA520078F694 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		CD36538C2432CF1C0078F694 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,12 +89,12 @@
 		CD36535D2431D2C50078F694 /* TabbarDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CD3653882431E56C0078F694 /* ad.jpeg */,
 				CD36535E2431D2C50078F694 /* AppDelegate.swift */,
 				CD3653602431D2C50078F694 /* SceneDelegate.swift */,
 				CD3653622431D2C50078F694 /* ContentView.swift */,
 				CD3653802431D4830078F694 /* MineView.swift */,
 				CD3653822431D4900078F694 /* HomeView.swift */,
+				CD36538C2432CF1C0078F694 /* AddView.swift */,
 				CD3653642431D2C60078F694 /* Assets.xcassets */,
 				CD3653692431D2C60078F694 /* LaunchScreen.storyboard */,
 				CD36536C2431D2C60078F694 /* Info.plist */,
@@ -203,7 +203,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD3653892431E56C0078F694 /* ad.jpeg in Resources */,
 				CD36536B2431D2C60078F694 /* LaunchScreen.storyboard in Resources */,
 				CD3653682431D2C60078F694 /* Preview Assets.xcassets in Resources */,
 				CD3653652431D2C60078F694 /* Assets.xcassets in Resources */,
@@ -228,6 +227,7 @@
 				CD36538B2431EA520078F694 /* UIApplication.swift in Sources */,
 				CD3653812431D4830078F694 /* MineView.swift in Sources */,
 				CD3653612431D2C50078F694 /* SceneDelegate.swift in Sources */,
+				CD36538D2432CF1C0078F694 /* AddView.swift in Sources */,
 				CD3653832431D4900078F694 /* HomeView.swift in Sources */,
 				CD3653632431D2C50078F694 /* ContentView.swift in Sources */,
 				CD3653852431E4C40078F694 /* ADView.swift in Sources */,
@@ -387,6 +387,7 @@
 				DEVELOPMENT_TEAM = LZ5TGFY9AN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TabbarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,6 +408,7 @@
 				DEVELOPMENT_TEAM = LZ5TGFY9AN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TabbarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -12,6 +12,8 @@ struct ADView: View {
     @State private var countDown = 5
     @State private var time: String = "跳过广告 5s"
     @State private var timer: Timer?
+    
+    @EnvironmentObject var addVM: AddViewVM
     var body: some View {
         ZStack {
             Image("ad")
@@ -48,7 +50,7 @@ struct ADView: View {
         self.timer?.invalidate()
         self.timer = nil
         
-        changeRootView(view: ContentView())
+        changeRootView(view: ContentView().environmentObject(addVM))
     }
 }
 

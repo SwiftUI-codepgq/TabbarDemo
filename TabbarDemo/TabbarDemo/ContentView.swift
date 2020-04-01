@@ -21,7 +21,7 @@ struct ContentView: View {
                 }
                 .tag(0)
                 
-                AddView()
+                AddView(vm: AddViewVM(phoneNum: "", code: ""))
                     .tabItem {
                         Text("")
                         .disabled(true)
@@ -50,7 +50,7 @@ struct ContentView: View {
         }
     
         .sheet(isPresented: $isPopover) {
-            AddView()
+            AddView(vm: AddViewVM(phoneNum: "", code: ""))
         }
     }
     

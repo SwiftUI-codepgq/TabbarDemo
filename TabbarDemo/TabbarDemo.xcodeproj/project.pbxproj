@@ -19,6 +19,7 @@
 		CD3653852431E4C40078F694 /* ADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3653842431E4C40078F694 /* ADView.swift */; };
 		CD36538B2431EA520078F694 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36538A2431EA520078F694 /* UIApplication.swift */; };
 		CD36538D2432CF1C0078F694 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36538C2432CF1C0078F694 /* AddView.swift */; };
+		CD3653CB24347CEC0078F694 /* DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3653CA24347CEC0078F694 /* DismissKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		CD3653842431E4C40078F694 /* ADView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADView.swift; sourceTree = "<group>"; };
 		CD36538A2431EA520078F694 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		CD36538C2432CF1C0078F694 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		CD3653CA24347CEC0078F694 /* DismissKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				CD3653662431D2C60078F694 /* Preview Content */,
 				CD3653842431E4C40078F694 /* ADView.swift */,
 				CD36538A2431EA520078F694 /* UIApplication.swift */,
+				CD3653CA24347CEC0078F694 /* DismissKeyboard.swift */,
 			);
 			path = TabbarDemo;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			files = (
 				CD36535F2431D2C50078F694 /* AppDelegate.swift in Sources */,
 				CD36538B2431EA520078F694 /* UIApplication.swift in Sources */,
+				CD3653CB24347CEC0078F694 /* DismissKeyboard.swift in Sources */,
 				CD3653812431D4830078F694 /* MineView.swift in Sources */,
 				CD3653612431D2C50078F694 /* SceneDelegate.swift in Sources */,
 				CD36538D2432CF1C0078F694 /* AddView.swift in Sources */,

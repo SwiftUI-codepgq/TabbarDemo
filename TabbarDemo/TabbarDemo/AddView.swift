@@ -29,6 +29,8 @@ struct AddView: View {
                     TextField("请输入号码", text: $phone, onEditingChanged: { edit in
                     }, onCommit:  {
                     })
+                        // 禁用自动更正（拼写检查）
+                    .disableAutocorrection(true)
                    .frame(height: 40)
                         .onReceive(vm.$phone) { (string) in
                             

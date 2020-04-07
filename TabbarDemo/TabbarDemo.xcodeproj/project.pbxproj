@@ -20,6 +20,12 @@
 		CD36538B2431EA520078F694 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36538A2431EA520078F694 /* UIApplication.swift */; };
 		CD36538D2432CF1C0078F694 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36538C2432CF1C0078F694 /* AddView.swift */; };
 		CD3653CB24347CEC0078F694 /* DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3653CA24347CEC0078F694 /* DismissKeyboard.swift */; };
+		CD3653D02435DC2B0078F694 /* ViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3653CF2435DC2B0078F694 /* ViewExample.swift */; };
+		CD36543324360F2B0078F694 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36543224360F2B0078F694 /* StateExample.swift */; };
+		CD36543724370A240078F694 /* AlertExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36543624370A240078F694 /* AlertExample.swift */; };
+		CD36543924370B720078F694 /* ActionSheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36543824370B720078F694 /* ActionSheetExample.swift */; };
+		CD36543B24370C310078F694 /* ContentMenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36543A24370C310078F694 /* ContentMenuExample.swift */; };
+		CD36543D24370F090078F694 /* PresentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36543C24370F090078F694 /* PresentExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,12 @@
 		CD36538A2431EA520078F694 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		CD36538C2432CF1C0078F694 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		CD3653CA24347CEC0078F694 /* DismissKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissKeyboard.swift; sourceTree = "<group>"; };
+		CD3653CF2435DC2B0078F694 /* ViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExample.swift; sourceTree = "<group>"; };
+		CD36543224360F2B0078F694 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
+		CD36543624370A240078F694 /* AlertExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExample.swift; sourceTree = "<group>"; };
+		CD36543824370B720078F694 /* ActionSheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetExample.swift; sourceTree = "<group>"; };
+		CD36543A24370C310078F694 /* ContentMenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMenuExample.swift; sourceTree = "<group>"; };
+		CD36543C24370F090078F694 /* PresentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +116,12 @@
 				CD3653842431E4C40078F694 /* ADView.swift */,
 				CD36538A2431EA520078F694 /* UIApplication.swift */,
 				CD3653CA24347CEC0078F694 /* DismissKeyboard.swift */,
+				CD3653CF2435DC2B0078F694 /* ViewExample.swift */,
+				CD36543224360F2B0078F694 /* StateExample.swift */,
+				CD36543624370A240078F694 /* AlertExample.swift */,
+				CD36543824370B720078F694 /* ActionSheetExample.swift */,
+				CD36543C24370F090078F694 /* PresentExample.swift */,
+				CD36543A24370C310078F694 /* ContentMenuExample.swift */,
 			);
 			path = TabbarDemo;
 			sourceTree = "<group>";
@@ -226,14 +244,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD36543324360F2B0078F694 /* StateExample.swift in Sources */,
 				CD36535F2431D2C50078F694 /* AppDelegate.swift in Sources */,
+				CD3653D02435DC2B0078F694 /* ViewExample.swift in Sources */,
 				CD36538B2431EA520078F694 /* UIApplication.swift in Sources */,
 				CD3653CB24347CEC0078F694 /* DismissKeyboard.swift in Sources */,
+				CD36543B24370C310078F694 /* ContentMenuExample.swift in Sources */,
 				CD3653812431D4830078F694 /* MineView.swift in Sources */,
 				CD3653612431D2C50078F694 /* SceneDelegate.swift in Sources */,
 				CD36538D2432CF1C0078F694 /* AddView.swift in Sources */,
 				CD3653832431D4900078F694 /* HomeView.swift in Sources */,
+				CD36543924370B720078F694 /* ActionSheetExample.swift in Sources */,
+				CD36543724370A240078F694 /* AlertExample.swift in Sources */,
 				CD3653632431D2C50078F694 /* ContentView.swift in Sources */,
+				CD36543D24370F090078F694 /* PresentExample.swift in Sources */,
 				CD3653852431E4C40078F694 /* ADView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

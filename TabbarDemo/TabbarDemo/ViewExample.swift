@@ -1050,3 +1050,23 @@ struct ColorMultiplyExample: View {
         }.padding()
     }
 }
+
+// MARK: - 灰度
+struct SaturationExample: View {
+    var body: some View {
+        Image("bg1")
+        .resizable()
+            // 0-1 0表示灰色 1 原始颜色
+        .saturation(0.5)
+    }
+}
+
+// MARK: - 对比度
+struct ContrastExample: View {
+    var body: some View {
+        Image("bg1")
+        .resizable()
+            // 0-1 0表示灰色 1 原始颜色 大于1的会增加对比度
+        .contrast(0.5)
+    }
+}

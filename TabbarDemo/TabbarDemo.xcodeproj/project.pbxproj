@@ -26,6 +26,10 @@
 		CD36543924370B720078F694 /* ActionSheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36543824370B720078F694 /* ActionSheetExample.swift */; };
 		CD36543B24370C310078F694 /* ContentMenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36543A24370C310078F694 /* ContentMenuExample.swift */; };
 		CD36543D24370F090078F694 /* PresentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36543C24370F090078F694 /* PresentExample.swift */; };
+		CD478668243C777D006E89F0 /* ShapesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD478667243C777D006E89F0 /* ShapesExample.swift */; };
+		CD47866A243C7B20006E89F0 /* AnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD478669243C7B20006E89F0 /* AnimationExample.swift */; };
+		CD47866C243CA021006E89F0 /* TransitionAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD47866B243CA021006E89F0 /* TransitionAnimationExample.swift */; };
+		CD47866E243CAD6A006E89F0 /* CombineViewsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD47866D243CAD6A006E89F0 /* CombineViewsExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		CD36543824370B720078F694 /* ActionSheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetExample.swift; sourceTree = "<group>"; };
 		CD36543A24370C310078F694 /* ContentMenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMenuExample.swift; sourceTree = "<group>"; };
 		CD36543C24370F090078F694 /* PresentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentExample.swift; sourceTree = "<group>"; };
+		CD478667243C777D006E89F0 /* ShapesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesExample.swift; sourceTree = "<group>"; };
+		CD478669243C7B20006E89F0 /* AnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample.swift; sourceTree = "<group>"; };
+		CD47866B243CA021006E89F0 /* TransitionAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationExample.swift; sourceTree = "<group>"; };
+		CD47866D243CAD6A006E89F0 /* CombineViewsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewsExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,10 @@
 				CD36538A2431EA520078F694 /* UIApplication.swift */,
 				CD3653CA24347CEC0078F694 /* DismissKeyboard.swift */,
 				CD3653CF2435DC2B0078F694 /* ViewExample.swift */,
+				CD47866D243CAD6A006E89F0 /* CombineViewsExample.swift */,
+				CD478667243C777D006E89F0 /* ShapesExample.swift */,
+				CD478669243C7B20006E89F0 /* AnimationExample.swift */,
+				CD47866B243CA021006E89F0 /* TransitionAnimationExample.swift */,
 				CD36543224360F2B0078F694 /* StateExample.swift */,
 				CD36543624370A240078F694 /* AlertExample.swift */,
 				CD36543824370B720078F694 /* ActionSheetExample.swift */,
@@ -244,10 +256,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD47866C243CA021006E89F0 /* TransitionAnimationExample.swift in Sources */,
+				CD47866A243C7B20006E89F0 /* AnimationExample.swift in Sources */,
 				CD36543324360F2B0078F694 /* StateExample.swift in Sources */,
 				CD36535F2431D2C50078F694 /* AppDelegate.swift in Sources */,
 				CD3653D02435DC2B0078F694 /* ViewExample.swift in Sources */,
 				CD36538B2431EA520078F694 /* UIApplication.swift in Sources */,
+				CD47866E243CAD6A006E89F0 /* CombineViewsExample.swift in Sources */,
 				CD3653CB24347CEC0078F694 /* DismissKeyboard.swift in Sources */,
 				CD36543B24370C310078F694 /* ContentMenuExample.swift in Sources */,
 				CD3653812431D4830078F694 /* MineView.swift in Sources */,
@@ -258,6 +273,7 @@
 				CD36543724370A240078F694 /* AlertExample.swift in Sources */,
 				CD3653632431D2C50078F694 /* ContentView.swift in Sources */,
 				CD36543D24370F090078F694 /* PresentExample.swift in Sources */,
+				CD478668243C777D006E89F0 /* ShapesExample.swift in Sources */,
 				CD3653852431E4C40078F694 /* ADView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

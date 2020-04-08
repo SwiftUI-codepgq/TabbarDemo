@@ -6,6 +6,11 @@
 //  Copyright © 2020 pq. All rights reserved.
 //
 
+/**
+ 当前进度
+ https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-and-compose-custom-views
+ */
+
 import UIKit
 
 @UIApplicationMain
